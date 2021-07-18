@@ -1,0 +1,149 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.section-conteiner{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.background-section{
+    background-image: url(../assets/bg.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo{
+    position: absolute;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.titulo-principal{
+    position: absolute;
+    height: 180px;
+    left: 700px;
+    right: 231px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.408px;
+    color: #FFFFFF;
+}
+
+.titulo-pequeno{
+    position: absolute;
+    height: 350px;
+    left:  870px;
+    right: 269px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.408px;
+    color: #FFFFFF;
+
+}
+
+.informacoes{
+    position: absolute;
+    width: 600px;
+    height: 174px;
+    left: 770px;
+    top: 250px;
+    
+
+   
+   
+
+}
+.informacoes li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: bottom;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.metodos{
+    font-size: 14px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 10%;
+}
+
+
+form{
+	margin: 50px, 0;
+    position: absolute;
+    left: 296px;
+    right: 655px;
+    top: 600px;
+    
+  
+}
+
+.input-padrao{
+	position: absolute;
+    width: 489px;
+    height: 56px;
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+    background: rgba(196, 196, 196, 0.8);
+    border: 2.475px solid #C28361;
+    box-sizing: border-box;
+    border-radius: 10px
+}
+
+input:focus{
+    outline: none;
+    border-color: #719838;
+}
+
+.enviar{
+    position: absolute;
+    left: 801px;
+    right: 296px;
+    top: 600px;
+    width: 343px;
+    height: 56px;
+    padding: 15px 0;
+    background: #719838;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 14px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: #AE7648;
+    transform: scale(1.01);
+}
+
+.logopromocao{
+    position: absolute;
+    width: 332px;
+    height: 332px;
+left: 250px;
+top: 129px;
+}
+ 
